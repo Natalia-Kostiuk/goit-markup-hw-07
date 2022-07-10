@@ -134,3 +134,12 @@
 .footer__sab {
     fill: currentColor;
 }
+
+//Footer button
+
+.footer__button {
+    display: flex;
+    align-items: center;
+    margin-left: 12px;
+    transition: box-shadow var(--transition-duration) var(--transition-timing-function), background-color var(--transition-duration) var(--transition-timing-function), color var(--transition-duration) var(--transition-timing-function);
+}
