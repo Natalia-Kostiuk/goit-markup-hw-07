@@ -1,0 +1,117 @@
+.button {
+    cursor: pointer;
+    text-align: center;
+    transition: box-shadow var(--transition-duration) var(--transition-timing-function), background-color var(--transition-duration) var(--transition-timing-function), color var(--transition-duration) var(--transition-timing-function);
+}
+
+//Button hero
+
+.hero__button {
+    font-family: var(--main-font);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    color: var(--white-txt);
+    background: var(--button-bg);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    padding: 10px 32px;
+    border: none;
+
+    &:hover,
+    &:focus {
+        background-color: #188ce8;
+    }
+}
+
+
+//Modal button
+
+.modal__button {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 50%;
+    border-width: 1px;
+    border-style: solid;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-image: initial;
+    background: #ffffff;
+    background-color: transparent;
+    transition: fill var(--transition-duration) var(--transition-timing-function);
+
+    &:hover,
+    &:focus {
+        fill: var(--button-bg);
+    }
+
+}
+
+//Footer button
+
+.footer__button {
+    display: flex;
+    align-items: center;
+    margin-left: 12px;
+    transition: box-shadow var(--transition-duration) var(--transition-timing-function), background-color var(--transition-duration) var(--transition-timing-function), color var(--transition-duration) var(--transition-timing-function);
+}
+
+//Portfolio button
+
+.button-portfolio {
+    display: inline-block;
+    border: 1px solid transparent;
+    font-family: var(--main-font);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-txt);
+    background-color: var(--secondary-light-bg);
+    border-radius: 4px;
+    padding: 6px 22px;
+    transition: color var(--transition-duration) var(--transition-timing-function), background-color var(--transition-duration) var(--transition-timing-function), box-shadow var(--transition-duration) var(--transition-timing-function);
+
+    &:hover,
+    &:focus {
+        color: var(--white-txt);
+        background-color: var(--button-bg);
+        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    }
+}
+
+.portfolio__buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button__form {
+    margin-top: 30px;
+    font-family: var(--main-font);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    color: var(--white-txt);
+    background: var(--button-bg);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    padding: 10px 50px;
+    border: none;
+
+    &:hover,
+    &:focus {
+        background-color: #188ce8;
+    }
+}
+
